@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="Parent-child" icon-name="utility:info" onsomething={testik}>
+        <lightning-input type="text" label="Text input" onchange={handleChange}></lightning-input>
+        {input}s
+    <c-child-component property1={input}></c-child-component>
+    </lightning-card>
+</template>
