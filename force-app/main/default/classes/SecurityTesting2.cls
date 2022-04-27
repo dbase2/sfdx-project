@@ -88,6 +88,5 @@ public class SecurityTesting2 {
        
          [Select id, Active__c from Account WITH SECURITY_ENFORCED].size();
       }
-null;
   }
 }
