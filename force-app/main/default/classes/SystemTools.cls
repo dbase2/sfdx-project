@@ -74,12 +74,11 @@ public class SystemTools {
         list<Account> accs = new List<Account>();
         Account acc = new Account();
         acc.name = 'fun';
-        null;
+
         accs.add(acc);
 
         return accs;
 
-     
             
             Test.startTest();
             System.runAs(contextuser){
